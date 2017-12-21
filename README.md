@@ -1,31 +1,33 @@
-# Connexion d'une application Node.js à une BD Cloudant
+# Connexion d'une application Node.js Ã  une BD Cloudant
+
+# Base de donnÃ©es orientÃ©e documents
 
 #Node.js
 Une application Node.js qui utilise un Framework express (https://expressjs.com) pour fournir une API REST afin
 de recevoir des demandes de l'interface utilisateur. L'API utilise ensuite le  package 
 node-cfenv 
-	pour lire les informations d'identification de la base de données et la  bibliothèque 
+	pour lire les informations d'identification de la base de donnÃ©es et la  bibliothÃ¨que 
 client nodejs-cloudant
- pour conserver les docuements dans une base de données Cloudant. 
+ pour conserver les docuements dans une base de donnÃ©es Cloudant. 
 #Avant de commencer
 Vous aurez besoin des comptes et outils suivants :
      
 	[Node](https://nodejs.org/en/)
 
 	
-Etape 1 : Exécuter l'application localement
-Utilisez le gestionnaire de package npm pour installer les dépendances et lancer l'application.
+Etape 1 : ExÃ©cuter l'application localement
+Utilisez le gestionnaire de package npm pour installer les dÃ©pendances et lancer l'application.
 pour plus de details suivez le lien https://docs.npmjs.com/cli/install
 
-1) Sur la ligne de commande, placez-vous dans le répertoire où se trouve l'application exemple.
+1) Sur la ligne de commande, placez-vous dans le rÃ©pertoire oÃ¹ se trouve l'application exemple.
 
 	>cd ULBDBProject2017
 	
-2) Installez les dépendances listées dans le fichier package.json  afin de pouvoir exécuter l'application localement.
+2) Installez les dÃ©pendances listÃ©es dans le fichier package.json  afin de pouvoir exÃ©cuter l'application localement.
 
 	>npm install
 
-Exécutez l'application.
+ExÃ©cutez l'application.
 
 	>npm start
 
@@ -34,7 +36,7 @@ il est possible d'utiliser aussi
 
 Vous pouvez visualiser votre application sur : http://localhost:3000.
 
-NB: Si jamais le port 3000 est occupé sur votre systéme, changer la valeur dans server.js
+NB: Si jamais le port 3000 est occupÃ© sur votre systÃ©me, changer la valeur dans server.js
 
 le projets fonction avec
 Refferences:
