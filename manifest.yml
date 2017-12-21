@@ -1,0 +1,5 @@
+---
+applications:
+ - name: ULBDBProject2017
+   random-route: true
+   memory: 256M

@@ -1,0 +1,24 @@
+{
+  "name": "ULBDBProject2017",
+  "main": "server.js",
+  "description": "Une application Node.js qui utilise un cadre express pour fournir une API REST afin de recevoir des demandes de l'interface utilisateur. L'API utilise ensuite le  package node-cfenv pour lire les informations d'identification de la base de données et la  bibliothèque client nodejs-cloudant pour conserver les docuements dans une base de données Cloudant NoSQL.",
+  "version": "0.1.0",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "cloudant": "^1.7.x",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.x"
+  },
+  "author": 
+	[{"name": "Michel NOUTCHA","email": "noutchamichel@yahoo.fr","ULB_Email": "Michel.Gildas.Noutcha@uld.ac.be"},
+	 {"name": "Dansy EFILA","email": "efiladansy@yahoo.fr","ULB_Email": ""}],
+  "license": "Apache-2.0"
+}
